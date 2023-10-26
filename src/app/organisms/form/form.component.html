@@ -1,0 +1,7 @@
+<form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+    <atomic-user-info textLabel="CEO" textName="Naam" textPhone="Telefoonnummer" [parentFormGroup]="userForm" infoFormName="CEO"></atomic-user-info>
+    <atomic-user-info textLabel="CTO" textName="Naam" textPhone="Telefoonnummer" [parentFormGroup]="userForm" infoFormName="CTO"></atomic-user-info>
+    <atomic-user-info textLabel="CEFO" textName="Naam" textPhone="Telefoonnummer" [parentFormGroup]="userForm" infoFormName="CEFO"></atomic-user-info>
+    <br><br>
+    <atomic-button text="Opslaan" type="submit"></atomic-button>
+</form>

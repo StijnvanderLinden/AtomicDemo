@@ -7,4 +7,13 @@ import { Component, Input } from '@angular/core';
 })
 export class ButtonComponent {
   @Input() text: string;
+  @Input() click: string;
+
+  addUser(name: string) {
+    if(name != ''){
+      
+    }
+  }
+
 }
+

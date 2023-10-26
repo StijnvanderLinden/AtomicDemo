@@ -1,0 +1,7 @@
+<form [formGroup]="childForm">
+    <b><atomic-label text="{{textLabel}}"></atomic-label></b>
+    <atomic-input text="{{textName}}" [parentFormGroup]="childForm" parentControl="naam"></atomic-input>
+    <br>
+    <atomic-input text="{{textPhone}}" [parentFormGroup]="childForm" parentControl="telefoonnummer"></atomic-input>
+</form>
+

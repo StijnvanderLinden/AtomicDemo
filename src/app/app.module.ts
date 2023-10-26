@@ -3,9 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderModule } from './organisms/header/header.module';
-import { CardModule } from './organisms/card/card.module';
 import { ButtonModule } from './atoms/button/button.module';
+import { FormModule } from './organisms/form/form.module';
+import { UsersModule } from './pages/users/users.module';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent
@@ -13,9 +14,10 @@ import { ButtonModule } from './atoms/button/button.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HeaderModule,
-    CardModule,
-    ButtonModule
+    HttpClientModule,
+    ButtonModule,
+    FormModule,
+    UsersModule
   ],
   providers: [],
   bootstrap: [AppComponent]

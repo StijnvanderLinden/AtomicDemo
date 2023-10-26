@@ -4,6 +4,8 @@ import { LabelModule } from '../../atoms/label/label.module';
 import { FormComponent } from './form.component';
 import { InputModule } from 'src/app/atoms/input/input.module';
 import { ButtonModule } from 'src/app/atoms/button/button.module';
+import { ReactiveFormsModule } from '@angular/forms';
+import { UserInfoModule } from 'src/app/molecules/user-info/user-info.module';
 
 
 
@@ -16,9 +18,11 @@ import { ButtonModule } from 'src/app/atoms/button/button.module';
   ],
   imports: [
     CommonModule,
+    ReactiveFormsModule,
     LabelModule,
     InputModule,
-    ButtonModule
+    ButtonModule,
+    UserInfoModule
   ]
 })
 export class FormModule { }

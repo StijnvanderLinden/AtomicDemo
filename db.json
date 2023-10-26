@@ -1,0 +1,19 @@
+{
+  "users": {
+    "CEO": {
+      "functie": "CEO",
+      "naam": null,
+      "telefoonnummer": null
+    },
+    "CTO": {
+      "functie": "CTO",
+      "naam": null,
+      "telefoonnummer": null
+    },
+    "CEFO": {
+      "functie": "CEFO",
+      "naam": null,
+      "telefoonnummer": null
+    }
+  }
+}

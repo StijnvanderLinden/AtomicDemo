@@ -1,0 +1,13 @@
+<atomic-form (emitter)="eventHandler($event)"></atomic-form>
+<table>
+    <tr>
+        <th>Functie</th>
+        <th>Naam</th>
+        <th>Telefoonnummer</th>
+    </tr>
+    <tr *ngFor="let user of users">
+        <td>{{user.functie}}</td>
+        <td>{{user.naam}}</td>
+        <td>{{user.telefoonnummer}}</td>
+    </tr>
+</table>

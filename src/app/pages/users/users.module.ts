@@ -1,18 +1,20 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { CardComponent } from './card.component';
-import { FormModule } from 'src/app/molecules/form/form.module';
+import { UsersComponent } from './users.component';
+import { FormModule } from 'src/app/organisms/form/form.module';
+
+
 
 @NgModule({
   declarations: [
-    CardComponent
+    UsersComponent
   ],
   exports: [
-    CardComponent
+    UsersComponent
   ],
   imports: [
     CommonModule,
     FormModule
   ]
 })
-export class CardModule { }
+export class UsersModule { }
